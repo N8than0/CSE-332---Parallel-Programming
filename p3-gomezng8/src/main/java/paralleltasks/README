@@ -1,0 +1,4 @@
+This folder contains the Recursive Tasks used to execute the bellman-ford algorithm
+  RelaxInTask.java: Recursive task that relaxes the incoming edges in parallel
+  RelaxOutTaskBad: Recursive task that relaxes the outgoing edges in parallel without using locks (introduces race conditions)
+  RelaxOutTaskLock: Recursive task that relaxes the outgoing edges in parallel with locks (fixes race conditions)
