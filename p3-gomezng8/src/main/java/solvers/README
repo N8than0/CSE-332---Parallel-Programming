@@ -1,0 +1,5 @@
+All solvers in this folder use the Bellman-Ford algorithm in slightly different ways to achieve the edge relaxation
+  InParallel: Uses RelaxInTask.java to relax incoming edges
+  OutParallelBad: Uses RelaxOutTaskBad.java to relax outgoing edges
+  OutParallelLock: Uses RelaxOutTaskLock.java to relax outgoing edges
+  
